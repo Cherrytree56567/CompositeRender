@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B2EBABF9-56D9-379A-A2C2-9420A17BE2F6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libjpeg</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CompositeRender\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libjpeg.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libjpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CompositeRender\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libjpeg.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libjpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CompositeRender\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libjpeg.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libjpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CompositeRender\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libjpeg.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libjpeg</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\src;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CompositeRender\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/CompositeRender/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CompositeRender -BD:/CompositeRender/build --check-stamp-file D:/CompositeRender/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeCCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeCXXCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeRCCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CompositeRender\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/CompositeRender/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CompositeRender -BD:/CompositeRender/build --check-stamp-file D:/CompositeRender/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeCCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeCXXCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeRCCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CompositeRender\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/CompositeRender/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CompositeRender -BD:/CompositeRender/build --check-stamp-file D:/CompositeRender/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeCCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeCXXCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeRCCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CompositeRender\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/CompositeRender/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CompositeRender -BD:/CompositeRender/build --check-stamp-file D:/CompositeRender/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeCCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeCXXCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeRCCompiler.cmake;D:\CompositeRender\build\CMakeFiles\3.31.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CompositeRender\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\cdjpeg.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\cjpeg.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\djpeg.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jaricom.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcapimin.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcapistd.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcinit.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcarith.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jccoefct.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jccolor.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcdctmgr.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcdiffct.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jchuff.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcicc.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jclhuff.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jclossls.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcmainct.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcmarker.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcmaster.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcomapi.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcparam.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcphuff.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcprepct.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jcsample.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jctrans.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdapimin.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdapistd.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdarith.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdatadst-tj.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdatadst.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdatasrc-tj.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdatasrc.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdcoefct.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdcolor.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jddctmgr.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jddiffct.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdhuff.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdicc.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdinput.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdlhuff.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdlossls.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdmainct.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdmarker.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdmerge.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdphuff.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdpostct.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdsample.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jdtrans.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jerror.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jfdctflt.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jfdctfst.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jfdctint.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jidctflt.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jidctfst.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jidctint.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jidctred.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jmemmgr.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jmemnobs.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jpegtran.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jpeg_nbits.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jquant1.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jquant2.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\jutils.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdbmp.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdcolmap.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdgif.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdjpgcom.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdppm.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdswitch.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdtarga.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\tjbench.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\tjcomp.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\tjdecomp.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\tjtran.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\tjutil.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\transupp.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\turbojpeg.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\wrbmp.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\wrgif.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\wrjpgcom.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\wrppm.c" />
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\wrtarga.c" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\CompositeRender\build\ZERO_CHECK.vcxproj">
+      <Project>{14A369F3-6FBB-3C3D-B178-E35BD23AC2E3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\build\glad.vcxproj">
+      <Project>{8A5B966B-F460-359A-BAFA-DBBFE546AEF9}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\build\imgui.vcxproj">
+      <Project>{A935923F-DA3F-3D9F-A5EB-6349F3F75D45}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\build\tinyxml2.vcxproj">
+      <Project>{9DFFA9EA-3A02-3AAB-840D-23F13FBEF3AF}</Project>
+      <Name>tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\build\zlib.vcxproj">
+      <Project>{B4DA0ED5-06A5-375E-BB96-61DE524F0924}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

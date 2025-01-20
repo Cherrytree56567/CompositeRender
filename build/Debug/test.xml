@@ -1,0 +1,14 @@
+<Composite>
+    <Nodes>
+        <Composite id="2571587991200" active="true">
+            <in type="image" val="2571588874672"/>
+        </Composite>
+        <Gamma id="2571588874672">
+            <in type="image" val="2571505049232"/>
+            <param name="gamma" val="2.670000"/>
+        </Gamma>
+        <Image id="2571505049232">
+            <param name="image" val="D:\Composite\build\Debug\img3.jpg"/>
+        </Image>
+    </Nodes>
+</Composite>

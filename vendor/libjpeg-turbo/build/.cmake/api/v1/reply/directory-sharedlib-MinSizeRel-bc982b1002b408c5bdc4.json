@@ -1,0 +1,117 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"sharedlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 137,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"MinSizeRel/jpeg.lib"
+			],
+			"targetId" : "jpeg::@f24a82888f86be82ccef",
+			"targetIndex" : 20,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"MinSizeRel/jpeg62.dll"
+			],
+			"targetId" : "jpeg::@f24a82888f86be82ccef",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"MinSizeRel/cjpeg.exe"
+			],
+			"targetId" : "cjpeg::@f24a82888f86be82ccef",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"MinSizeRel/djpeg.exe"
+			],
+			"targetId" : "djpeg::@f24a82888f86be82ccef",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"MinSizeRel/jpegtran.exe"
+			],
+			"targetId" : "jpegtran::@f24a82888f86be82ccef",
+			"targetIndex" : 26,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "bin",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"build/MinSizeRel/jpeg62.pdb"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "sharedlib",
+		"source" : "sharedlib"
+	}
+}

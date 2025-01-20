@@ -1,0 +1,615 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.12.12+1cce77968 for .NET Framework
+      Build started 17/01/2025 4:04:59 PM.
+      
+      Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.05
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/3.31.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-8sakfb"
+      binary: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-8sakfb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-8sakfb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_522a1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 17/01/2025 4:05:02 PM.
+        
+        Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8sakfb\\cmTC_522a1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_522a1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8sakfb\\Debug\\".
+          Creating directory "cmTC_522a1.dir\\Debug\\cmTC_522a1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_522a1.dir\\Debug\\cmTC_522a1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_522a1.dir\\Debug\\cmTC_522a1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_522a1.dir\\Debug\\\\" /Fd"cmTC_522a1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_522a1.dir\\Debug\\\\" /Fd"cmTC_522a1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8sakfb\\Debug\\cmTC_522a1.exe" /INCREMENTAL /ILK:"cmTC_522a1.dir\\Debug\\cmTC_522a1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-8sakfb/Debug/cmTC_522a1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-8sakfb/Debug/cmTC_522a1.lib" /MACHINE:X64  /machine:x64 cmTC_522a1.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_522a1.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8sakfb\\Debug\\cmTC_522a1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_522a1.dir\\Debug\\cmTC_522a1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_522a1.dir\\Debug\\cmTC_522a1.tlog\\cmTC_522a1.lastbuildstate".
+        Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8sakfb\\cmTC_522a1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.99
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34435.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "CMakeLists.txt:462 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-gem3dp"
+      binary: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-gem3dp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-gem3dp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_099e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 17/01/2025 4:05:05 PM.
+        
+        Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gem3dp\\cmTC_099e0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_099e0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gem3dp\\Debug\\".
+          Creating directory "cmTC_099e0.dir\\Debug\\cmTC_099e0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_099e0.dir\\Debug\\cmTC_099e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_099e0.dir\\Debug\\cmTC_099e0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_099e0.dir\\Debug\\\\" /Fd"cmTC_099e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gem3dp\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_099e0.dir\\Debug\\\\" /Fd"cmTC_099e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gem3dp\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gem3dp\\Debug\\cmTC_099e0.exe" /INCREMENTAL /ILK:"cmTC_099e0.dir\\Debug\\cmTC_099e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-gem3dp/Debug/cmTC_099e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-gem3dp/Debug/cmTC_099e0.lib" /MACHINE:X64  /machine:x64 cmTC_099e0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_099e0.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gem3dp\\Debug\\cmTC_099e0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_099e0.dir\\Debug\\cmTC_099e0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_099e0.dir\\Debug\\cmTC_099e0.tlog\\cmTC_099e0.lastbuildstate".
+        Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gem3dp\\cmTC_099e0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.09
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "CMakeLists.txt:462 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lyeshf"
+      binary: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lyeshf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lyeshf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_94cae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 17/01/2025 4:05:08 PM.
+        
+        Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lyeshf\\cmTC_94cae.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_94cae.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lyeshf\\Debug\\".
+          Creating directory "cmTC_94cae.dir\\Debug\\cmTC_94cae.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_94cae.dir\\Debug\\cmTC_94cae.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_94cae.dir\\Debug\\cmTC_94cae.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94cae.dir\\Debug\\\\" /Fd"cmTC_94cae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lyeshf\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94cae.dir\\Debug\\\\" /Fd"cmTC_94cae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lyeshf\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lyeshf\\Debug\\cmTC_94cae.exe" /INCREMENTAL /ILK:"cmTC_94cae.dir\\Debug\\cmTC_94cae.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lyeshf/Debug/cmTC_94cae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lyeshf/Debug/cmTC_94cae.lib" /MACHINE:X64  /machine:x64 cmTC_94cae.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_94cae.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lyeshf\\Debug\\cmTC_94cae.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_94cae.dir\\Debug\\cmTC_94cae.tlog\\unsuccessfulbuild".
+          Touching "cmTC_94cae.dir\\Debug\\cmTC_94cae.tlog\\cmTC_94cae.lastbuildstate".
+        Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lyeshf\\cmTC_94cae.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.01
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "CMakeLists.txt:462 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-3cr4bj"
+      binary: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-3cr4bj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-3cr4bj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cd8ae.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 17/01/2025 4:05:10 PM.
+        
+        Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cr4bj\\cmTC_cd8ae.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cd8ae.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cr4bj\\Debug\\".
+          Creating directory "cmTC_cd8ae.dir\\Debug\\cmTC_cd8ae.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cd8ae.dir\\Debug\\cmTC_cd8ae.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cd8ae.dir\\Debug\\cmTC_cd8ae.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd8ae.dir\\Debug\\\\" /Fd"cmTC_cd8ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cr4bj\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd8ae.dir\\Debug\\\\" /Fd"cmTC_cd8ae.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cr4bj\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cr4bj\\Debug\\cmTC_cd8ae.exe" /INCREMENTAL /ILK:"cmTC_cd8ae.dir\\Debug\\cmTC_cd8ae.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-3cr4bj/Debug/cmTC_cd8ae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-3cr4bj/Debug/cmTC_cd8ae.lib" /MACHINE:X64  /machine:x64 cmTC_cd8ae.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_cd8ae.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cr4bj\\Debug\\cmTC_cd8ae.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_cd8ae.dir\\Debug\\cmTC_cd8ae.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cd8ae.dir\\Debug\\cmTC_cd8ae.tlog\\cmTC_cd8ae.lastbuildstate".
+        Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3cr4bj\\cmTC_cd8ae.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.08
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:462 (check_type_size)"
+    checks:
+      - "Check size of size_t"
+    directories:
+      source: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yzw3mp"
+      binary: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yzw3mp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_SIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yzw3mp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1e724.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 17/01/2025 4:05:13 PM.
+        
+        Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzw3mp\\cmTC_1e724.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1e724.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzw3mp\\Debug\\".
+          Creating directory "cmTC_1e724.dir\\Debug\\cmTC_1e724.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1e724.dir\\Debug\\cmTC_1e724.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1e724.dir\\Debug\\cmTC_1e724.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e724.dir\\Debug\\\\" /Fd"cmTC_1e724.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzw3mp\\SIZE_T.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e724.dir\\Debug\\\\" /Fd"cmTC_1e724.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzw3mp\\SIZE_T.c"
+          SIZE_T.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzw3mp\\Debug\\cmTC_1e724.exe" /INCREMENTAL /ILK:"cmTC_1e724.dir\\Debug\\cmTC_1e724.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yzw3mp/Debug/cmTC_1e724.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yzw3mp/Debug/cmTC_1e724.lib" /MACHINE:X64  /machine:x64 cmTC_1e724.dir\\Debug\\SIZE_T.obj
+          cmTC_1e724.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzw3mp\\Debug\\cmTC_1e724.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_1e724.dir\\Debug\\cmTC_1e724.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1e724.dir\\Debug\\cmTC_1e724.tlog\\cmTC_1e724.lastbuildstate".
+        Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yzw3mp\\cmTC_1e724.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.99
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "CMakeLists.txt:463 (check_type_size)"
+    checks:
+      - "Check size of unsigned long"
+    directories:
+      source: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-ctff0t"
+      binary: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-ctff0t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_UNSIGNED_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-ctff0t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b31e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 17/01/2025 4:05:16 PM.
+        
+        Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctff0t\\cmTC_4b31e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4b31e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctff0t\\Debug\\".
+          Creating directory "cmTC_4b31e.dir\\Debug\\cmTC_4b31e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4b31e.dir\\Debug\\cmTC_4b31e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4b31e.dir\\Debug\\cmTC_4b31e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b31e.dir\\Debug\\\\" /Fd"cmTC_4b31e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctff0t\\UNSIGNED_LONG.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b31e.dir\\Debug\\\\" /Fd"cmTC_4b31e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctff0t\\UNSIGNED_LONG.c"
+          UNSIGNED_LONG.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctff0t\\Debug\\cmTC_4b31e.exe" /INCREMENTAL /ILK:"cmTC_4b31e.dir\\Debug\\cmTC_4b31e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-ctff0t/Debug/cmTC_4b31e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-ctff0t/Debug/cmTC_4b31e.lib" /MACHINE:X64  /machine:x64 cmTC_4b31e.dir\\Debug\\UNSIGNED_LONG.obj
+          cmTC_4b31e.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctff0t\\Debug\\cmTC_4b31e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4b31e.dir\\Debug\\cmTC_4b31e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4b31e.dir\\Debug\\cmTC_4b31e.tlog\\cmTC_4b31e.lastbuildstate".
+        Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctff0t\\cmTC_4b31e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.95
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "CMakeLists.txt:470 (check_include_files)"
+    checks:
+      - "Looking for include file intrin.h"
+    directories:
+      source: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yf26nq"
+      binary: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yf26nq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_INTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yf26nq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2c36b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 17/01/2025 4:05:19 PM.
+        
+        Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yf26nq\\cmTC_2c36b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2c36b.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yf26nq\\Debug\\".
+          Creating directory "cmTC_2c36b.dir\\Debug\\cmTC_2c36b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2c36b.dir\\Debug\\cmTC_2c36b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2c36b.dir\\Debug\\cmTC_2c36b.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c36b.dir\\Debug\\\\" /Fd"cmTC_2c36b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yf26nq\\HAVE_INTRIN_H.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c36b.dir\\Debug\\\\" /Fd"cmTC_2c36b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yf26nq\\HAVE_INTRIN_H.c"
+          HAVE_INTRIN_H.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yf26nq\\Debug\\cmTC_2c36b.exe" /INCREMENTAL /ILK:"cmTC_2c36b.dir\\Debug\\cmTC_2c36b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yf26nq/Debug/cmTC_2c36b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-yf26nq/Debug/cmTC_2c36b.lib" /MACHINE:X64  /machine:x64 cmTC_2c36b.dir\\Debug\\HAVE_INTRIN_H.obj
+          cmTC_2c36b.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yf26nq\\Debug\\cmTC_2c36b.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2c36b.dir\\Debug\\cmTC_2c36b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2c36b.dir\\Debug\\cmTC_2c36b.tlog\\cmTC_2c36b.lastbuildstate".
+        Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yf26nq\\cmTC_2c36b.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.02
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:525 (check_c_source_compiles)"
+    checks:
+      - "Performing Test INLINE_WORKS"
+    directories:
+      source: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lnl6pp"
+      binary: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lnl6pp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "INLINE_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lnl6pp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f89ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 17/01/2025 4:05:21 PM.
+        
+        Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnl6pp\\cmTC_f89ea.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f89ea.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnl6pp\\Debug\\".
+          Creating directory "cmTC_f89ea.dir\\Debug\\cmTC_f89ea.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f89ea.dir\\Debug\\cmTC_f89ea.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f89ea.dir\\Debug\\cmTC_f89ea.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D INLINE_WORKS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f89ea.dir\\Debug\\\\" /Fd"cmTC_f89ea.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnl6pp\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D INLINE_WORKS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f89ea.dir\\Debug\\\\" /Fd"cmTC_f89ea.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnl6pp\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnl6pp\\Debug\\cmTC_f89ea.exe" /INCREMENTAL /ILK:"cmTC_f89ea.dir\\Debug\\cmTC_f89ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lnl6pp/Debug/cmTC_f89ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-lnl6pp/Debug/cmTC_f89ea.lib" /MACHINE:X64  /machine:x64 cmTC_f89ea.dir\\Debug\\src.obj
+          cmTC_f89ea.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnl6pp\\Debug\\cmTC_f89ea.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f89ea.dir\\Debug\\cmTC_f89ea.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f89ea.dir\\Debug\\cmTC_f89ea.tlog\\cmTC_f89ea.lastbuildstate".
+        Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnl6pp\\cmTC_f89ea.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.00
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:542 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_THREAD_LOCAL"
+    directories:
+      source: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-qgtp0o"
+      binary: "D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-qgtp0o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-qgtp0o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7bb33.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.12.12+1cce77968 for .NET Framework
+        Build started 17/01/2025 4:05:24 PM.
+        
+        Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgtp0o\\cmTC_7bb33.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7bb33.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgtp0o\\Debug\\".
+          Creating directory "cmTC_7bb33.dir\\Debug\\cmTC_7bb33.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7bb33.dir\\Debug\\cmTC_7bb33.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7bb33.dir\\Debug\\cmTC_7bb33.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_THREAD_LOCAL /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bb33.dir\\Debug\\\\" /Fd"cmTC_7bb33.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgtp0o\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34435 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_THREAD_LOCAL /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bb33.dir\\Debug\\\\" /Fd"cmTC_7bb33.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgtp0o\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgtp0o\\Debug\\cmTC_7bb33.exe" /INCREMENTAL /ILK:"cmTC_7bb33.dir\\Debug\\cmTC_7bb33.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-qgtp0o/Debug/cmTC_7bb33.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/CMakeScratch/TryCompile-qgtp0o/Debug/cmTC_7bb33.lib" /MACHINE:X64  /machine:x64 cmTC_7bb33.dir\\Debug\\src.obj
+          cmTC_7bb33.vcxproj -> D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgtp0o\\Debug\\cmTC_7bb33.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7bb33.dir\\Debug\\cmTC_7bb33.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7bb33.dir\\Debug\\cmTC_7bb33.tlog\\cmTC_7bb33.lastbuildstate".
+        Done Building Project "D:\\CompositeRender\\vendor\\libjpeg-turbo\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgtp0o\\cmTC_7bb33.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.91
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLanguage.cmake:140 (message)"
+      - "simd/CMakeLists.txt:46 (check_language)"
+    checks:
+      - "Looking for a ASM_NASM compiler"
+    message: |
+      Looking for a ASM_NASM compiler failed with the following output:
+      -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+      -- The ASM_NASM compiler identification is unknown
+      -- Didn't find assembler
+      CMake Error at CMakeLists.txt:3 (project):
+        No CMAKE_ASM_NASM_COMPILER could be found.
+      
+      
+      
+      -- Configuring incomplete, errors occurred!
+      
+...

@@ -1,0 +1,270 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jcapistd.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jccolor.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jcdiffct.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jclossls.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jcmainct.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jcprepct.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jcsample.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jdapistd.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jdcolor.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jddiffct.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jdlossls.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jdmainct.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jdpostct.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jdsample.obj"
+		},
+		{
+			"path" : "jpeg16-static.dir/RelWithDebInfo/jutils.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 676,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 592,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob1 /DNDEBUG -MT -Zi"
+				},
+				{
+					"fragment" : "-DBITS_IN_JSAMPLE=16"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/CompositeRender/vendor/libjpeg-turbo/build"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/CompositeRender/vendor/libjpeg-turbo/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "jpeg16-static::@6890427a1f51a3e7e1df",
+	"name" : "jpeg16-static",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jccolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcdiffct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jclossls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcprepct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdcolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jddiffct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdlossls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdpostct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jutils.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\djpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\cdjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdcolmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdswitch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\wrbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\wrgif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\wrppm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\wrtarga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CompositeRender\vendor\libjpeg-turbo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\CompositeRender\vendor\libjpeg-turbo\build\djpeg12-static.dir\$(Configuration)\rdcolmap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\CompositeRender\vendor\libjpeg-turbo\build\djpeg12-static.dir\$(Configuration)\wrgif.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\CompositeRender\vendor\libjpeg-turbo\build\djpeg12-static.dir\$(Configuration)\wrppm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\CompositeRender\vendor\libjpeg-turbo\build\djpeg16-static.dir\$(Configuration)\wrppm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{BAF362E5-07A3-3982-9E67-A746AD240144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8256A168-F83B-3F96-99D5-C3AFF4950E70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

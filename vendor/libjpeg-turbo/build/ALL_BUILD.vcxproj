@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A44B26CD-4F57-3BFE-96CC-225B5DAB6F02}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\build;D:\CompositeRender\vendor\libjpeg-turbo\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\build;D:\CompositeRender\vendor\libjpeg-turbo\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\build;D:\CompositeRender\vendor\libjpeg-turbo\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\libjpeg-turbo\build;D:\CompositeRender\vendor\libjpeg-turbo\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CompositeRender\vendor\libjpeg-turbo\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/CompositeRender/vendor/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CompositeRender/vendor/libjpeg-turbo -BD:/CompositeRender/vendor/libjpeg-turbo/build --check-stamp-file D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeCCompiler.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeRCCompiler.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeSystem.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\BuildPackages.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\GNUInstallDirs.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\PackageInfo.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\cmake_uninstall.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\release\Config.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\release\installer.nsi.in;D:\CompositeRender\vendor\libjpeg-turbo\release\libjpeg.pc.in;D:\CompositeRender\vendor\libjpeg-turbo\release\libturbojpeg.pc.in;D:\CompositeRender\vendor\libjpeg-turbo\release\maketarball.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jconfig.h.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jconfigint.h.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jversion.h.in;D:\CompositeRender\vendor\libjpeg-turbo\test\croptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjbenchtest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjcomptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjdecomptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjtrantest.in;D:\CompositeRender\vendor\libjpeg-turbo\win\projectTargets.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\win\turbojpeg.rc.in;D:\CompositeRender\vendor\libjpeg-turbo\win\vc\projectTargets-release.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/CompositeRender/vendor/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CompositeRender/vendor/libjpeg-turbo -BD:/CompositeRender/vendor/libjpeg-turbo/build --check-stamp-file D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeCCompiler.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeRCCompiler.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeSystem.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\BuildPackages.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\GNUInstallDirs.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\PackageInfo.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\cmake_uninstall.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\release\Config.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\release\installer.nsi.in;D:\CompositeRender\vendor\libjpeg-turbo\release\libjpeg.pc.in;D:\CompositeRender\vendor\libjpeg-turbo\release\libturbojpeg.pc.in;D:\CompositeRender\vendor\libjpeg-turbo\release\maketarball.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jconfig.h.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jconfigint.h.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jversion.h.in;D:\CompositeRender\vendor\libjpeg-turbo\test\croptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjbenchtest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjcomptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjdecomptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjtrantest.in;D:\CompositeRender\vendor\libjpeg-turbo\win\projectTargets.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\win\turbojpeg.rc.in;D:\CompositeRender\vendor\libjpeg-turbo\win\vc\projectTargets-release.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/CompositeRender/vendor/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CompositeRender/vendor/libjpeg-turbo -BD:/CompositeRender/vendor/libjpeg-turbo/build --check-stamp-file D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeCCompiler.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeRCCompiler.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeSystem.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\BuildPackages.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\GNUInstallDirs.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\PackageInfo.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\cmake_uninstall.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\release\Config.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\release\installer.nsi.in;D:\CompositeRender\vendor\libjpeg-turbo\release\libjpeg.pc.in;D:\CompositeRender\vendor\libjpeg-turbo\release\libturbojpeg.pc.in;D:\CompositeRender\vendor\libjpeg-turbo\release\maketarball.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jconfig.h.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jconfigint.h.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jversion.h.in;D:\CompositeRender\vendor\libjpeg-turbo\test\croptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjbenchtest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjcomptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjdecomptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjtrantest.in;D:\CompositeRender\vendor\libjpeg-turbo\win\projectTargets.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\win\turbojpeg.rc.in;D:\CompositeRender\vendor\libjpeg-turbo\win\vc\projectTargets-release.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/CompositeRender/vendor/libjpeg-turbo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/CompositeRender/vendor/libjpeg-turbo -BD:/CompositeRender/vendor/libjpeg-turbo/build --check-stamp-file D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeCCompiler.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeRCCompiler.cmake;D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\3.31.3\CMakeSystem.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\BuildPackages.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\GNUInstallDirs.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\PackageInfo.cmake;D:\CompositeRender\vendor\libjpeg-turbo\cmakescripts\cmake_uninstall.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\release\Config.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\release\installer.nsi.in;D:\CompositeRender\vendor\libjpeg-turbo\release\libjpeg.pc.in;D:\CompositeRender\vendor\libjpeg-turbo\release\libturbojpeg.pc.in;D:\CompositeRender\vendor\libjpeg-turbo\release\maketarball.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jconfig.h.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jconfigint.h.in;D:\CompositeRender\vendor\libjpeg-turbo\src\jversion.h.in;D:\CompositeRender\vendor\libjpeg-turbo\test\croptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjbenchtest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjcomptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjdecomptest.in;D:\CompositeRender\vendor\libjpeg-turbo\test\tjtrantest.in;D:\CompositeRender\vendor\libjpeg-turbo\win\projectTargets.cmake.in;D:\CompositeRender\vendor\libjpeg-turbo\win\turbojpeg.rc.in;D:\CompositeRender\vendor\libjpeg-turbo\win\vc\projectTargets-release.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CompositeRender\vendor\libjpeg-turbo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\ZERO_CHECK.vcxproj">
+      <Project>{F3AA519E-54A5-3418-AF16-3BCF25386D5C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\cjpeg.vcxproj">
+      <Project>{6E03956E-A3E5-3A9A-B1E0-5B8CE8847974}</Project>
+      <Name>cjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\cjpeg-static.vcxproj">
+      <Project>{E143A875-6847-383F-A9F1-9D2A60EE870A}</Project>
+      <Name>cjpeg-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\cjpeg12.vcxproj">
+      <Project>{18DEF2C6-D3DC-31F2-9065-82D81A1C9A73}</Project>
+      <Name>cjpeg12</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\cjpeg12-static.vcxproj">
+      <Project>{7177346A-D4AA-349A-991B-9E4FC4F17B41}</Project>
+      <Name>cjpeg12-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\cjpeg16.vcxproj">
+      <Project>{8E34A766-DE70-306F-822C-B29EADDAD65D}</Project>
+      <Name>cjpeg16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\cjpeg16-static.vcxproj">
+      <Project>{B5C47D5D-2DB2-3995-842A-1434917422AD}</Project>
+      <Name>cjpeg16-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\djpeg.vcxproj">
+      <Project>{AD90DC9B-4F5E-370E-80F0-4205686EED81}</Project>
+      <Name>djpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\djpeg-static.vcxproj">
+      <Project>{2407779C-6A0E-366B-B4D2-49C66E1F9EE6}</Project>
+      <Name>djpeg-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\djpeg12.vcxproj">
+      <Project>{9A514BD6-8A01-3BE2-BD5C-7E3231755360}</Project>
+      <Name>djpeg12</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\djpeg12-static.vcxproj">
+      <Project>{8AACC2FB-4931-3EF3-8767-359CF8FB599D}</Project>
+      <Name>djpeg12-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\djpeg16.vcxproj">
+      <Project>{798058EF-B7C9-31ED-A323-D127249DAC77}</Project>
+      <Name>djpeg16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\djpeg16-static.vcxproj">
+      <Project>{E5DE5819-ED02-3BA9-AB55-4A7D91909C8A}</Project>
+      <Name>djpeg16-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\example.vcxproj">
+      <Project>{28DBC75E-DFA0-3CB9-BE9D-F1C1BB4F2A05}</Project>
+      <Name>example</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\example-static.vcxproj">
+      <Project>{3B4AB4A2-9D18-36F1-924D-2832F6511DD1}</Project>
+      <Name>example-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\jcstest.vcxproj">
+      <Project>{B6C15B36-57E6-3704-B05F-1EF6069AC2B2}</Project>
+      <Name>jcstest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\jpeg.vcxproj">
+      <Project>{29961D41-BF8E-33D3-BCA4-09148A870432}</Project>
+      <Name>jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\jpeg-static.vcxproj">
+      <Project>{C1539263-0366-3816-A336-F286FAE43D94}</Project>
+      <Name>jpeg-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\jpeg12.vcxproj">
+      <Project>{6E1AE679-7A8B-3078-9712-A903C777AFD9}</Project>
+      <Name>jpeg12</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\jpeg12-static.vcxproj">
+      <Project>{3D948488-ECF0-36DD-AF31-FDD620EE0720}</Project>
+      <Name>jpeg12-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\jpeg16.vcxproj">
+      <Project>{60069F9A-831F-3FB6-BD83-AC088CE9FD77}</Project>
+      <Name>jpeg16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\jpeg16-static.vcxproj">
+      <Project>{1B991F2B-11D7-3107-8BAC-EF639212F80E}</Project>
+      <Name>jpeg16-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\sharedlib\jpegtran.vcxproj">
+      <Project>{C6B55CBA-7239-3561-9685-26585A34C6AA}</Project>
+      <Name>jpegtran</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\jpegtran-static.vcxproj">
+      <Project>{F8981F25-F3A4-3F70-801E-BF7002ADC0EE}</Project>
+      <Name>jpegtran-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\src\md5\md5cmp.vcxproj">
+      <Project>{2A61C435-5EF3-332A-A36A-08AA1890AAF6}</Project>
+      <Name>md5cmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\src\md5\md5sum.vcxproj">
+      <Project>{DCBB0B85-0511-3E37-B1C4-7E567E6892CD}</Project>
+      <Name>md5sum</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\rdjpgcom.vcxproj">
+      <Project>{AB32A2F1-7A74-311F-975C-9BD58981C391}</Project>
+      <Name>rdjpgcom</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\strtest.vcxproj">
+      <Project>{8AAABBBD-F911-3A1E-9CFF-879D3573E047}</Project>
+      <Name>strtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\tjbench.vcxproj">
+      <Project>{90974116-50C3-31F6-A286-43858BB63D33}</Project>
+      <Name>tjbench</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\tjbench-static.vcxproj">
+      <Project>{8AF48A20-CD1F-3D34-A6AC-81BB7E56D9D8}</Project>
+      <Name>tjbench-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\tjcomp.vcxproj">
+      <Project>{9EA20CCB-2CAD-359D-94D3-6051669B9F54}</Project>
+      <Name>tjcomp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\tjdecomp.vcxproj">
+      <Project>{B72B55A1-94A2-38BC-9B81-9E5733802AEB}</Project>
+      <Name>tjdecomp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\tjtran.vcxproj">
+      <Project>{58D28911-15D4-351B-A883-88D519BF10F2}</Project>
+      <Name>tjtran</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\tjunittest.vcxproj">
+      <Project>{F1D7E074-7CAC-38A5-B206-6B653266028B}</Project>
+      <Name>tjunittest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\tjunittest-static.vcxproj">
+      <Project>{F8BCAFBB-FFF1-3B58-87CC-F01037E156DA}</Project>
+      <Name>tjunittest-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\turbojpeg.vcxproj">
+      <Project>{7766BBAA-C50B-3890-8E8F-0D8E081AEEC4}</Project>
+      <Name>turbojpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\turbojpeg-static.vcxproj">
+      <Project>{E2226724-C77A-3531-95E0-58FDB64148C9}</Project>
+      <Name>turbojpeg-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\turbojpeg12.vcxproj">
+      <Project>{C79BE9D8-DFFA-39DB-91B2-F79C630FE03E}</Project>
+      <Name>turbojpeg12</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\turbojpeg12-static.vcxproj">
+      <Project>{0C26AE91-10EF-3875-BB83-1031C258515A}</Project>
+      <Name>turbojpeg12-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\turbojpeg16.vcxproj">
+      <Project>{E1E666F7-7084-39E5-8866-EA8AC77F1480}</Project>
+      <Name>turbojpeg16</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\turbojpeg16-static.vcxproj">
+      <Project>{6A0764A9-396D-30BA-9353-71D5F891C0EB}</Project>
+      <Name>turbojpeg16-static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\vendor\libjpeg-turbo\build\wrjpgcom.vcxproj">
+      <Project>{9F0B90E3-1C02-370D-A345-40820135ABCD}</Project>
+      <Name>wrjpgcom</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

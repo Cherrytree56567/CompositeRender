@@ -1,0 +1,413 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jcapistd.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jccolor.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jcdiffct.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jclossls.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jcmainct.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jcprepct.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jcsample.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jdapistd.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jdcolor.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jddiffct.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jdlossls.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jdmainct.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jdpostct.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jdsample.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jutils.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jccoefct.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jcdctmgr.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jdcoefct.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jddctmgr.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jdmerge.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jfdctfst.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jfdctint.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jidctflt.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jidctfst.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jidctint.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jidctred.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jquant1.obj"
+		},
+		{
+			"path" : "jpeg12.dir/MinSizeRel/jquant2.obj"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 661,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 426,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 592,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /O1 /Ob1 /DNDEBUG -MT"
+				},
+				{
+					"fragment" : "-DBITS_IN_JSAMPLE=12"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/CompositeRender/vendor/libjpeg-turbo/build"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/CompositeRender/vendor/libjpeg-turbo/src"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "jpeg12::@6890427a1f51a3e7e1df",
+	"name" : "jpeg12",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jccolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcdiffct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jclossls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcprepct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdcolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jddiffct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdlossls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdpostct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jutils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jccoefct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jcdctmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdcoefct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jddctmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jdmerge.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jfdctfst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jfdctint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jidctflt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jidctfst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jidctint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jidctred.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jquant1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/jquant2.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

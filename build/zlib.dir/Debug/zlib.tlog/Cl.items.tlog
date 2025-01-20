@@ -1,0 +1,15 @@
+D:\CompositeRender\vendor\zlib\compress.c;D:\CompositeRender\build\zlib.dir\Debug\compress.obj
+D:\CompositeRender\vendor\zlib\crc32.c;D:\CompositeRender\build\zlib.dir\Debug\crc32.obj
+D:\CompositeRender\vendor\zlib\deflate.c;D:\CompositeRender\build\zlib.dir\Debug\deflate.obj
+D:\CompositeRender\vendor\zlib\gzclose.c;D:\CompositeRender\build\zlib.dir\Debug\gzclose.obj
+D:\CompositeRender\vendor\zlib\gzlib.c;D:\CompositeRender\build\zlib.dir\Debug\gzlib.obj
+D:\CompositeRender\vendor\zlib\gzread.c;D:\CompositeRender\build\zlib.dir\Debug\gzread.obj
+D:\CompositeRender\vendor\zlib\gzwrite.c;D:\CompositeRender\build\zlib.dir\Debug\gzwrite.obj
+D:\CompositeRender\vendor\zlib\infback.c;D:\CompositeRender\build\zlib.dir\Debug\infback.obj
+D:\CompositeRender\vendor\zlib\inffast.c;D:\CompositeRender\build\zlib.dir\Debug\inffast.obj
+D:\CompositeRender\vendor\zlib\inflate.c;D:\CompositeRender\build\zlib.dir\Debug\inflate.obj
+D:\CompositeRender\vendor\zlib\inftrees.c;D:\CompositeRender\build\zlib.dir\Debug\inftrees.obj
+D:\CompositeRender\vendor\zlib\trees.c;D:\CompositeRender\build\zlib.dir\Debug\trees.obj
+D:\CompositeRender\vendor\zlib\uncompr.c;D:\CompositeRender\build\zlib.dir\Debug\uncompr.obj
+D:\CompositeRender\vendor\zlib\zutil.c;D:\CompositeRender\build\zlib.dir\Debug\zutil.obj
+D:\CompositeRender\vendor\zlib\adler32.c;D:\CompositeRender\build\zlib.dir\Debug\adler32.obj

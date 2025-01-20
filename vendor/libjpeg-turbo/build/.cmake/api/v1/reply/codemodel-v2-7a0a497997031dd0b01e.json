@@ -1,0 +1,2300 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ecbdc793c02109c2f135.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						5,
+						7,
+						8,
+						9,
+						11,
+						13,
+						15,
+						17,
+						18,
+						21,
+						22,
+						23,
+						24,
+						25,
+						27,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53
+					]
+				},
+				{
+					"build" : "simd",
+					"jsonFile" : "directory-simd-Debug-394baf6b50aaa45b1130.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "simd"
+				},
+				{
+					"build" : "sharedlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-sharedlib-Debug-3fe352be8422454525ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sharedlib",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						6,
+						10,
+						12,
+						14,
+						16,
+						19,
+						20,
+						26
+					]
+				},
+				{
+					"build" : "src/md5",
+					"jsonFile" : "directory-src.md5-Debug-29ee3225adee50d31a14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/md5",
+					"targetIndexes" : 
+					[
+						28,
+						29
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "libjpeg-turbo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-570684041cd473bc5114.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-f9a9187e934c5d4a3a55.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg-Debug-a933c375fdc420f4c872.json",
+					"name" : "cjpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg-static-Debug-fe3dc8f2c44545e0bb13.json",
+					"name" : "cjpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg12::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg12-Debug-9e9139f220b2a8a74a07.json",
+					"name" : "cjpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg12-static-Debug-d9642ace25b7b003d4a8.json",
+					"name" : "cjpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg16::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg16-Debug-a26b6c36e8611400b85b.json",
+					"name" : "cjpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg16-static-Debug-1b612331007ba1937c5e.json",
+					"name" : "cjpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "croptest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-croptest-Debug-120ad25458f87bebea3e.json",
+					"name" : "croptest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dist-Debug-f4d4cb678ba7fc520b44.json",
+					"name" : "dist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg-Debug-204dfa649b8bc1b89194.json",
+					"name" : "djpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg-static-Debug-c63dae3395449682b14c.json",
+					"name" : "djpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg12::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg12-Debug-deb97e896ac726278b60.json",
+					"name" : "djpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg12-static-Debug-2f319d9bfac6e5a97abf.json",
+					"name" : "djpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg16::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg16-Debug-ce33d496d655ccc5d213.json",
+					"name" : "djpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg16-static-Debug-3437573d37eec2f731a6.json",
+					"name" : "djpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "example::@f24a82888f86be82ccef",
+					"jsonFile" : "target-example-Debug-8314393379b8813ed129.json",
+					"name" : "example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example-static-Debug-5c98c255b0690f204f73.json",
+					"name" : "example-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "installer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-installer-Debug-3bf4e00378e5448f1494.json",
+					"name" : "installer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jcstest::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jcstest-Debug-b4fb0d253dabf29ae545.json",
+					"name" : "jcstest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jpeg-Debug-fcba5d381ba8ae720785.json",
+					"name" : "jpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg-static-Debug-6882f7551496b7607a50.json",
+					"name" : "jpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg12-Debug-577f83b8775e15cdb476.json",
+					"name" : "jpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg12-static-Debug-8deed2396d9d26e19849.json",
+					"name" : "jpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg16-Debug-57e8995c67d6c32f0880.json",
+					"name" : "jpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg16-static-Debug-8f3873fa47a1dcc4d36b.json",
+					"name" : "jpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jpegtran::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jpegtran-Debug-964b867a2ce16561c624.json",
+					"name" : "jpegtran",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpegtran-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpegtran-static-Debug-334ed05a4afea11b9745.json",
+					"name" : "jpegtran-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "md5cmp::@2e4daa3738a7706f7476",
+					"jsonFile" : "target-md5cmp-Debug-eaf1295e04da7d44e3a2.json",
+					"name" : "md5cmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "md5sum::@2e4daa3738a7706f7476",
+					"jsonFile" : "target-md5sum-Debug-80bab53ca7802c287e02.json",
+					"name" : "md5sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdjpgcom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdjpgcom-Debug-1c4fd746f5c9ef3054f9.json",
+					"name" : "rdjpgcom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strtest-Debug-abe7daf547a0845844ea.json",
+					"name" : "strtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tarball::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tarball-Debug-c9e3aab713125c77d91c.json",
+					"name" : "tarball",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testclean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testclean-Debug-e325f9d30be5058de13d.json",
+					"name" : "testclean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjbench::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjbench-Debug-87234d88fe7a4a5e3dab.json",
+					"name" : "tjbench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjbench-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjbench-static-Debug-ae18876aad0575af62b4.json",
+					"name" : "tjbench-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjcomp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjcomp-Debug-99bc3567462138ca0c44.json",
+					"name" : "tjcomp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjdecomp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjdecomp-Debug-6309670e8607a3ebf37c.json",
+					"name" : "tjdecomp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjdoc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjdoc-Debug-8280a4a33ec7253ac061.json",
+					"name" : "tjdoc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjexampletest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjexampletest-Debug-0f4ada7f0b82b2cad5f8.json",
+					"name" : "tjexampletest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest-Debug-af37337d3d013fa4e3da.json",
+					"name" : "tjtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest12-Debug-cd9bc9a48964302802c2.json",
+					"name" : "tjtest12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest16-Debug-53c3fc3959f7faa2ee4c.json",
+					"name" : "tjtest16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtran::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtran-Debug-f37ce6772f7111969874.json",
+					"name" : "tjtran",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjunittest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjunittest-Debug-d3277b258f06f9bd6eaf.json",
+					"name" : "tjunittest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjunittest-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjunittest-static-Debug-f08dbda3ecd1844a03ee.json",
+					"name" : "tjunittest-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg-Debug-0bee38c9a6908b80419c.json",
+					"name" : "turbojpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg-static-Debug-cbb67f1c4031c114e9fb.json",
+					"name" : "turbojpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg12-Debug-3bcbac5c37df372de0aa.json",
+					"name" : "turbojpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg12-static-Debug-bb72440d8c347a6151a2.json",
+					"name" : "turbojpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg16-Debug-7e5b755a695d8770425d.json",
+					"name" : "turbojpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg16-static-Debug-caf045bdcaecaae312f7.json",
+					"name" : "turbojpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-dbb660b10010d295cf61.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wrjpgcom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wrjpgcom-Debug-ba33112e527061a84b0f.json",
+					"name" : "wrjpgcom",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-a604145bf3cddddaf372.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						5,
+						7,
+						8,
+						9,
+						11,
+						13,
+						15,
+						17,
+						18,
+						21,
+						22,
+						23,
+						24,
+						25,
+						27,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53
+					]
+				},
+				{
+					"build" : "simd",
+					"jsonFile" : "directory-simd-Release-394baf6b50aaa45b1130.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "simd"
+				},
+				{
+					"build" : "sharedlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-sharedlib-Release-6e2f815ca3514b12ac7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sharedlib",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						6,
+						10,
+						12,
+						14,
+						16,
+						19,
+						20,
+						26
+					]
+				},
+				{
+					"build" : "src/md5",
+					"jsonFile" : "directory-src.md5-Release-29ee3225adee50d31a14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/md5",
+					"targetIndexes" : 
+					[
+						28,
+						29
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "libjpeg-turbo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-570684041cd473bc5114.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-f9a9187e934c5d4a3a55.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg-Release-1034d5d13eb30cd6f69e.json",
+					"name" : "cjpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg-static-Release-c0a89de2c2139df422cd.json",
+					"name" : "cjpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg12::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg12-Release-8fa3c2f3834fff3fcac3.json",
+					"name" : "cjpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg12-static-Release-50c1710dd91ab6d149a7.json",
+					"name" : "cjpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg16::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg16-Release-4d11d8dc50feffaebfa5.json",
+					"name" : "cjpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg16-static-Release-27191a243fe3ed10faf7.json",
+					"name" : "cjpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "croptest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-croptest-Release-120ad25458f87bebea3e.json",
+					"name" : "croptest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dist-Release-f4d4cb678ba7fc520b44.json",
+					"name" : "dist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg-Release-c92f561e094959d7ab56.json",
+					"name" : "djpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg-static-Release-378dfbf2b19f7c0adda0.json",
+					"name" : "djpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg12::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg12-Release-e9857af7efd717a8e6be.json",
+					"name" : "djpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg12-static-Release-8f19ed5c7f90cea521dd.json",
+					"name" : "djpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg16::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg16-Release-9f02101ec8f6f2fbb8d3.json",
+					"name" : "djpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg16-static-Release-71f67a18b10da94a1e08.json",
+					"name" : "djpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "example::@f24a82888f86be82ccef",
+					"jsonFile" : "target-example-Release-f4b6671c1812aac5701c.json",
+					"name" : "example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example-static-Release-62d1c70daf2267d7c095.json",
+					"name" : "example-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "installer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-installer-Release-3bf4e00378e5448f1494.json",
+					"name" : "installer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jcstest::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jcstest-Release-b7f559c91eaaa95aca84.json",
+					"name" : "jcstest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jpeg-Release-9d4ac21b3f8158e8d78f.json",
+					"name" : "jpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg-static-Release-3226dcae100ef350de24.json",
+					"name" : "jpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg12-Release-70c5ad96584f308a7090.json",
+					"name" : "jpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg12-static-Release-210c661ffafa93548c65.json",
+					"name" : "jpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg16-Release-f7a3b147158098301b28.json",
+					"name" : "jpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg16-static-Release-51572775e9f92229ae2d.json",
+					"name" : "jpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jpegtran::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jpegtran-Release-c0bdb9a0b7f9910ae74d.json",
+					"name" : "jpegtran",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpegtran-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpegtran-static-Release-9d6624346f68c2e1e5d9.json",
+					"name" : "jpegtran-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "md5cmp::@2e4daa3738a7706f7476",
+					"jsonFile" : "target-md5cmp-Release-37d95da8e3c25b677fe3.json",
+					"name" : "md5cmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "md5sum::@2e4daa3738a7706f7476",
+					"jsonFile" : "target-md5sum-Release-e66ea0d8294af6953df4.json",
+					"name" : "md5sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdjpgcom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdjpgcom-Release-e87c959c3d008a921d80.json",
+					"name" : "rdjpgcom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strtest-Release-bdd6e768d502b8bf7270.json",
+					"name" : "strtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tarball::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tarball-Release-c9e3aab713125c77d91c.json",
+					"name" : "tarball",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testclean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testclean-Release-e325f9d30be5058de13d.json",
+					"name" : "testclean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjbench::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjbench-Release-093ed671a1c9cdf748c8.json",
+					"name" : "tjbench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjbench-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjbench-static-Release-56fa442348941ebf973b.json",
+					"name" : "tjbench-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjcomp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjcomp-Release-232ae788fc3102189620.json",
+					"name" : "tjcomp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjdecomp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjdecomp-Release-353b3d909085525f685f.json",
+					"name" : "tjdecomp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjdoc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjdoc-Release-8280a4a33ec7253ac061.json",
+					"name" : "tjdoc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjexampletest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjexampletest-Release-0f4ada7f0b82b2cad5f8.json",
+					"name" : "tjexampletest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest-Release-af37337d3d013fa4e3da.json",
+					"name" : "tjtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest12-Release-cd9bc9a48964302802c2.json",
+					"name" : "tjtest12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest16-Release-53c3fc3959f7faa2ee4c.json",
+					"name" : "tjtest16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtran::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtran-Release-3fef3f03c7e4f039fa05.json",
+					"name" : "tjtran",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjunittest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjunittest-Release-7a05fba762c5da34caa1.json",
+					"name" : "tjunittest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjunittest-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjunittest-static-Release-31c853b5edcaf74e34fc.json",
+					"name" : "tjunittest-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg-Release-01208464fbc5fd3433b3.json",
+					"name" : "turbojpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg-static-Release-1f1ddeb07f456b6a5be4.json",
+					"name" : "turbojpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg12-Release-ed4cd27df811821777f5.json",
+					"name" : "turbojpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg12-static-Release-447aedda11a36747fdfe.json",
+					"name" : "turbojpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg16-Release-aa50d14911a25ddf1337.json",
+					"name" : "turbojpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg16-static-Release-3c1e10b4d7f0f22aae26.json",
+					"name" : "turbojpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-dbb660b10010d295cf61.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wrjpgcom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wrjpgcom-Release-a03f51a789e2cda0fcb0.json",
+					"name" : "wrjpgcom",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-4f3ee07cc3d8df41bd9b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						5,
+						7,
+						8,
+						9,
+						11,
+						13,
+						15,
+						17,
+						18,
+						21,
+						22,
+						23,
+						24,
+						25,
+						27,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53
+					]
+				},
+				{
+					"build" : "simd",
+					"jsonFile" : "directory-simd-MinSizeRel-394baf6b50aaa45b1130.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "simd"
+				},
+				{
+					"build" : "sharedlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-sharedlib-MinSizeRel-bc982b1002b408c5bdc4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sharedlib",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						6,
+						10,
+						12,
+						14,
+						16,
+						19,
+						20,
+						26
+					]
+				},
+				{
+					"build" : "src/md5",
+					"jsonFile" : "directory-src.md5-MinSizeRel-29ee3225adee50d31a14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/md5",
+					"targetIndexes" : 
+					[
+						28,
+						29
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "libjpeg-turbo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-570684041cd473bc5114.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-f9a9187e934c5d4a3a55.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg-MinSizeRel-52b6d8c22b5a7911e06a.json",
+					"name" : "cjpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg-static-MinSizeRel-b691ef1b638f89d820e2.json",
+					"name" : "cjpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg12::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg12-MinSizeRel-8d14e28b423e7e76dc87.json",
+					"name" : "cjpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg12-static-MinSizeRel-8fbd58b29e5225dcb00c.json",
+					"name" : "cjpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg16::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg16-MinSizeRel-3f53b9cb29fa7afb4472.json",
+					"name" : "cjpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg16-static-MinSizeRel-244fc7a7461085a0b770.json",
+					"name" : "cjpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "croptest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-croptest-MinSizeRel-120ad25458f87bebea3e.json",
+					"name" : "croptest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dist-MinSizeRel-f4d4cb678ba7fc520b44.json",
+					"name" : "dist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg-MinSizeRel-4f5e4961e2c300af0de3.json",
+					"name" : "djpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg-static-MinSizeRel-2ab68e3fee7ddccb0811.json",
+					"name" : "djpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg12::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg12-MinSizeRel-3c315b9303fdbc901f4b.json",
+					"name" : "djpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg12-static-MinSizeRel-345be67662a801fca443.json",
+					"name" : "djpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg16::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg16-MinSizeRel-5f5a75855ac0aaeebd9d.json",
+					"name" : "djpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg16-static-MinSizeRel-2cb90c4ff96de8b24303.json",
+					"name" : "djpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "example::@f24a82888f86be82ccef",
+					"jsonFile" : "target-example-MinSizeRel-b9351a63b386c9c71943.json",
+					"name" : "example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example-static-MinSizeRel-a940108f71ec72a484f7.json",
+					"name" : "example-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "installer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-installer-MinSizeRel-3bf4e00378e5448f1494.json",
+					"name" : "installer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jcstest::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jcstest-MinSizeRel-278e693ae62bfa95a0d2.json",
+					"name" : "jcstest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jpeg-MinSizeRel-f1d17223c65516bda55e.json",
+					"name" : "jpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg-static-MinSizeRel-4dce0027b929511fdf04.json",
+					"name" : "jpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg12-MinSizeRel-2d7d94dc6bf8d895c337.json",
+					"name" : "jpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg12-static-MinSizeRel-62be7beeb2945d02e5e6.json",
+					"name" : "jpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg16-MinSizeRel-2a79d08c976b7312f1cf.json",
+					"name" : "jpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg16-static-MinSizeRel-e94dcaffb0af4eb48442.json",
+					"name" : "jpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jpegtran::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jpegtran-MinSizeRel-ef4a8573e0903db6aed3.json",
+					"name" : "jpegtran",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpegtran-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpegtran-static-MinSizeRel-b4b2336ec9f1ac5b123b.json",
+					"name" : "jpegtran-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "md5cmp::@2e4daa3738a7706f7476",
+					"jsonFile" : "target-md5cmp-MinSizeRel-b3d907eba529f6d1b14a.json",
+					"name" : "md5cmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "md5sum::@2e4daa3738a7706f7476",
+					"jsonFile" : "target-md5sum-MinSizeRel-affe593b3cc4793bbd68.json",
+					"name" : "md5sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdjpgcom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdjpgcom-MinSizeRel-113af0a81c41fb395f7e.json",
+					"name" : "rdjpgcom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strtest-MinSizeRel-bd4d437be4656f8e6796.json",
+					"name" : "strtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tarball::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tarball-MinSizeRel-c9e3aab713125c77d91c.json",
+					"name" : "tarball",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testclean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testclean-MinSizeRel-e325f9d30be5058de13d.json",
+					"name" : "testclean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjbench::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjbench-MinSizeRel-026298202603f576c2d5.json",
+					"name" : "tjbench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjbench-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjbench-static-MinSizeRel-5edaa190bfeecfb20218.json",
+					"name" : "tjbench-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjcomp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjcomp-MinSizeRel-977c625591b54d9199a5.json",
+					"name" : "tjcomp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjdecomp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjdecomp-MinSizeRel-a1d218df146b69d3e73b.json",
+					"name" : "tjdecomp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjdoc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjdoc-MinSizeRel-8280a4a33ec7253ac061.json",
+					"name" : "tjdoc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjexampletest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjexampletest-MinSizeRel-0f4ada7f0b82b2cad5f8.json",
+					"name" : "tjexampletest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest-MinSizeRel-af37337d3d013fa4e3da.json",
+					"name" : "tjtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest12-MinSizeRel-cd9bc9a48964302802c2.json",
+					"name" : "tjtest12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest16-MinSizeRel-53c3fc3959f7faa2ee4c.json",
+					"name" : "tjtest16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtran::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtran-MinSizeRel-b46413f2430f32edfec3.json",
+					"name" : "tjtran",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjunittest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjunittest-MinSizeRel-eebd1e76691afc7c2e32.json",
+					"name" : "tjunittest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjunittest-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjunittest-static-MinSizeRel-6a7eedf549dd1deeec03.json",
+					"name" : "tjunittest-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg-MinSizeRel-58868bfa7fba59e101bb.json",
+					"name" : "turbojpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg-static-MinSizeRel-7333040a497b32836c28.json",
+					"name" : "turbojpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg12-MinSizeRel-16fa09845b902d4bc402.json",
+					"name" : "turbojpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg12-static-MinSizeRel-aa841af433c9eb5d1888.json",
+					"name" : "turbojpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg16-MinSizeRel-edec0a7234b9a6f3aa8f.json",
+					"name" : "turbojpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg16-static-MinSizeRel-bc5b38e6f456f40cbd37.json",
+					"name" : "turbojpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-MinSizeRel-dbb660b10010d295cf61.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wrjpgcom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wrjpgcom-MinSizeRel-0d20c4c96c220d96701f.json",
+					"name" : "wrjpgcom",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-6d180c12ba1b16168ca1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						5,
+						7,
+						8,
+						9,
+						11,
+						13,
+						15,
+						17,
+						18,
+						21,
+						22,
+						23,
+						24,
+						25,
+						27,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53
+					]
+				},
+				{
+					"build" : "simd",
+					"jsonFile" : "directory-simd-RelWithDebInfo-394baf6b50aaa45b1130.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "simd"
+				},
+				{
+					"build" : "sharedlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-sharedlib-RelWithDebInfo-4c39cf2f1bcf946d1721.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "sharedlib",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						6,
+						10,
+						12,
+						14,
+						16,
+						19,
+						20,
+						26
+					]
+				},
+				{
+					"build" : "src/md5",
+					"jsonFile" : "directory-src.md5-RelWithDebInfo-29ee3225adee50d31a14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/md5",
+					"targetIndexes" : 
+					[
+						28,
+						29
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "libjpeg-turbo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-570684041cd473bc5114.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-f9a9187e934c5d4a3a55.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg-RelWithDebInfo-d8e4f1f3d147a2deb93b.json",
+					"name" : "cjpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg-static-RelWithDebInfo-2c44e91860e09fa76ded.json",
+					"name" : "cjpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg12::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg12-RelWithDebInfo-bcaca79a204db37884b9.json",
+					"name" : "cjpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg12-static-RelWithDebInfo-7a873026262bf2611f6b.json",
+					"name" : "cjpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cjpeg16::@f24a82888f86be82ccef",
+					"jsonFile" : "target-cjpeg16-RelWithDebInfo-c1442f7442a313087ab6.json",
+					"name" : "cjpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cjpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cjpeg16-static-RelWithDebInfo-2240c6a93ea4391a2c3e.json",
+					"name" : "cjpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "croptest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-croptest-RelWithDebInfo-120ad25458f87bebea3e.json",
+					"name" : "croptest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dist-RelWithDebInfo-f4d4cb678ba7fc520b44.json",
+					"name" : "dist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg-RelWithDebInfo-a5afff2f9ba4c7b13096.json",
+					"name" : "djpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg-static-RelWithDebInfo-5febfd4988c602db0f33.json",
+					"name" : "djpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg12::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg12-RelWithDebInfo-85eb6feb5f39466eaedd.json",
+					"name" : "djpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg12-static-RelWithDebInfo-28f67876af1734ce1976.json",
+					"name" : "djpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "djpeg16::@f24a82888f86be82ccef",
+					"jsonFile" : "target-djpeg16-RelWithDebInfo-a8e177564f7e7869168f.json",
+					"name" : "djpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "djpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-djpeg16-static-RelWithDebInfo-c95bc560491f594cf4f4.json",
+					"name" : "djpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "example::@f24a82888f86be82ccef",
+					"jsonFile" : "target-example-RelWithDebInfo-144c52210a3a70c44226.json",
+					"name" : "example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example-static-RelWithDebInfo-ec8ced4d63ff57449224.json",
+					"name" : "example-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "installer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-installer-RelWithDebInfo-3bf4e00378e5448f1494.json",
+					"name" : "installer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jcstest::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jcstest-RelWithDebInfo-ba604355fb18308381e5.json",
+					"name" : "jcstest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jpeg::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jpeg-RelWithDebInfo-32b1b362c910a76b0de8.json",
+					"name" : "jpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg-static-RelWithDebInfo-a7ff09ee2bdecbb0cf60.json",
+					"name" : "jpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg12-RelWithDebInfo-ee0d98d483e2873db789.json",
+					"name" : "jpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg12-static-RelWithDebInfo-7f6f8474a85eb4da8e48.json",
+					"name" : "jpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg16-RelWithDebInfo-9fc3ea3445937e788bcc.json",
+					"name" : "jpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpeg16-static-RelWithDebInfo-819f0391b86a8598f444.json",
+					"name" : "jpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "jpegtran::@f24a82888f86be82ccef",
+					"jsonFile" : "target-jpegtran-RelWithDebInfo-93b50d26edcc2a52818c.json",
+					"name" : "jpegtran",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jpegtran-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jpegtran-static-RelWithDebInfo-76a0a0368aaa09563a8a.json",
+					"name" : "jpegtran-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "md5cmp::@2e4daa3738a7706f7476",
+					"jsonFile" : "target-md5cmp-RelWithDebInfo-398fe415baf6e9a0de7c.json",
+					"name" : "md5cmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "md5sum::@2e4daa3738a7706f7476",
+					"jsonFile" : "target-md5sum-RelWithDebInfo-e05d5585dc3a2e75e533.json",
+					"name" : "md5sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdjpgcom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdjpgcom-RelWithDebInfo-84c11f6eb9a4e54f10aa.json",
+					"name" : "rdjpgcom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strtest-RelWithDebInfo-c41b687046ca7d24e691.json",
+					"name" : "strtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tarball::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tarball-RelWithDebInfo-c9e3aab713125c77d91c.json",
+					"name" : "tarball",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testclean::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testclean-RelWithDebInfo-e325f9d30be5058de13d.json",
+					"name" : "testclean",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjbench::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjbench-RelWithDebInfo-29d55ad30aad885d7506.json",
+					"name" : "tjbench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjbench-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjbench-static-RelWithDebInfo-3848660d5e21ed3531c9.json",
+					"name" : "tjbench-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjcomp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjcomp-RelWithDebInfo-9c329ec0d8c211b99dd9.json",
+					"name" : "tjcomp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjdecomp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjdecomp-RelWithDebInfo-a591ba6f32e304e92e49.json",
+					"name" : "tjdecomp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjdoc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjdoc-RelWithDebInfo-8280a4a33ec7253ac061.json",
+					"name" : "tjdoc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjexampletest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjexampletest-RelWithDebInfo-0f4ada7f0b82b2cad5f8.json",
+					"name" : "tjexampletest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest-RelWithDebInfo-af37337d3d013fa4e3da.json",
+					"name" : "tjtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest12-RelWithDebInfo-cd9bc9a48964302802c2.json",
+					"name" : "tjtest12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtest16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtest16-RelWithDebInfo-53c3fc3959f7faa2ee4c.json",
+					"name" : "tjtest16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjtran::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjtran-RelWithDebInfo-5067a1e0a7667255635b.json",
+					"name" : "tjtran",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjunittest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjunittest-RelWithDebInfo-5dcca64700364f3c311e.json",
+					"name" : "tjunittest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tjunittest-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tjunittest-static-RelWithDebInfo-a32338d5bcf424913817.json",
+					"name" : "tjunittest-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg-RelWithDebInfo-743243eadfbdc66014f0.json",
+					"name" : "turbojpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg-static-RelWithDebInfo-55e834fbaeac348b7971.json",
+					"name" : "turbojpeg-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg12::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg12-RelWithDebInfo-1c095247762b7ef068ba.json",
+					"name" : "turbojpeg12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg12-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg12-static-RelWithDebInfo-2f9e90218f1a9119ea08.json",
+					"name" : "turbojpeg12-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg16::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg16-RelWithDebInfo-b48d6058bf9f7df44686.json",
+					"name" : "turbojpeg16",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turbojpeg16-static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turbojpeg16-static-RelWithDebInfo-81238780790a6b65bfb6.json",
+					"name" : "turbojpeg16-static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-dbb660b10010d295cf61.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wrjpgcom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wrjpgcom-RelWithDebInfo-01fd2ddbdb5a9cca4a15.json",
+					"name" : "wrjpgcom",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/CompositeRender/vendor/libjpeg-turbo/build",
+		"source" : "D:/CompositeRender/vendor/libjpeg-turbo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

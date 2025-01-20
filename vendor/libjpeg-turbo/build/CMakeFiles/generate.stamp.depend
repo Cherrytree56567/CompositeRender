@@ -1,0 +1,54 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
+D:/CompositeRender/vendor/libjpeg-turbo/CMakeLists.txt
+D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/3.31.3/CMakeCCompiler.cmake
+D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/3.31.3/CMakeRCCompiler.cmake
+D:/CompositeRender/vendor/libjpeg-turbo/build/CMakeFiles/3.31.3/CMakeSystem.cmake
+D:/CompositeRender/vendor/libjpeg-turbo/cmakescripts/BuildPackages.cmake
+D:/CompositeRender/vendor/libjpeg-turbo/cmakescripts/GNUInstallDirs.cmake
+D:/CompositeRender/vendor/libjpeg-turbo/cmakescripts/PackageInfo.cmake
+D:/CompositeRender/vendor/libjpeg-turbo/cmakescripts/cmake_uninstall.cmake.in
+D:/CompositeRender/vendor/libjpeg-turbo/release/Config.cmake.in
+D:/CompositeRender/vendor/libjpeg-turbo/release/installer.nsi.in
+D:/CompositeRender/vendor/libjpeg-turbo/release/libjpeg.pc.in
+D:/CompositeRender/vendor/libjpeg-turbo/release/libturbojpeg.pc.in
+D:/CompositeRender/vendor/libjpeg-turbo/release/maketarball.in
+D:/CompositeRender/vendor/libjpeg-turbo/src/jconfig.h.in
+D:/CompositeRender/vendor/libjpeg-turbo/src/jconfigint.h.in
+D:/CompositeRender/vendor/libjpeg-turbo/src/jversion.h.in
+D:/CompositeRender/vendor/libjpeg-turbo/test/croptest.in
+D:/CompositeRender/vendor/libjpeg-turbo/test/tjbenchtest.in
+D:/CompositeRender/vendor/libjpeg-turbo/test/tjcomptest.in
+D:/CompositeRender/vendor/libjpeg-turbo/test/tjdecomptest.in
+D:/CompositeRender/vendor/libjpeg-turbo/test/tjtrantest.in
+D:/CompositeRender/vendor/libjpeg-turbo/win/projectTargets.cmake.in
+D:/CompositeRender/vendor/libjpeg-turbo/win/turbojpeg.rc.in
+D:/CompositeRender/vendor/libjpeg-turbo/win/vc/projectTargets-release.cmake.in

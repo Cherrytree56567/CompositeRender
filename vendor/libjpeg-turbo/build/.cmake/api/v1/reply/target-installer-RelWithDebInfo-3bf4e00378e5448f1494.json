@@ -1,0 +1,120 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include"
+		],
+		"files" : 
+		[
+			"cmakescripts/BuildPackages.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2072,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "jpeg-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "rdjpgcom::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "wrjpgcom::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "turbojpeg-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "turbojpeg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tjbench::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "cjpeg::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "jpegtran::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "jpeg::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "djpeg::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "installer::@6890427a1f51a3e7e1df",
+	"name" : "installer",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "build/installer.nsi",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/installer",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/23cc2f6fded3be66d72643522dfda008/installer.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

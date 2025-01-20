@@ -1,0 +1,160 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "jpeg-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "jpeg16-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "djpeg16-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tjunittest-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "cjpeg12-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "cjpeg16-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "jpegtran-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "cjpeg-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tjbench-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "turbojpeg16-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "example-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "rdjpgcom::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "wrjpgcom::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "strtest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "djpeg12-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "turbojpeg-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "djpeg-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "jpeg16::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "turbojpeg16::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tjunittest::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "turbojpeg::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tjbench::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tjcomp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tjdecomp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "turbojpeg12::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "tjtran::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "turbojpeg12-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "jpeg12-static::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "jpeg12::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "cjpeg::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "djpeg12::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "md5cmp::@2e4daa3738a7706f7476"
+		},
+		{
+			"id" : "cjpeg12::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "jpegtran::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "cjpeg16::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "jpeg::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "djpeg16::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "djpeg::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "example::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "jcstest::@f24a82888f86be82ccef"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "md5sum::@2e4daa3738a7706f7476"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

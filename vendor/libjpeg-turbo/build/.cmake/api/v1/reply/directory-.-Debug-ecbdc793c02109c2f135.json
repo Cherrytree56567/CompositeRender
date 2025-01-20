@@ -1,0 +1,305 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1970,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1975,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1979,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1984,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1997,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2002,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2020,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2023,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2050,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2053,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2056,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2061,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2066,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Debug/turbojpeg.lib"
+			],
+			"targetId" : "turbojpeg::@6890427a1f51a3e7e1df",
+			"targetIndex" : 46,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"Debug/turbojpeg.dll"
+			],
+			"targetId" : "turbojpeg::@6890427a1f51a3e7e1df",
+			"targetIndex" : 46,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"Debug/tjbench.exe"
+			],
+			"targetId" : "tjbench::@6890427a1f51a3e7e1df",
+			"targetIndex" : 34,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "bin",
+			"destination" : "bin",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"build/Debug/turbojpeg.pdb"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Debug/turbojpeg-static.lib"
+			],
+			"targetId" : "turbojpeg-static::@6890427a1f51a3e7e1df",
+			"targetIndex" : 47,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "include",
+			"destination" : "include",
+			"paths" : 
+			[
+				"src/turbojpeg.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Debug/jpeg-static.lib"
+			],
+			"targetId" : "jpeg-static::@6890427a1f51a3e7e1df",
+			"targetIndex" : 21,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"Debug/rdjpgcom.exe"
+			],
+			"targetId" : "rdjpgcom::@6890427a1f51a3e7e1df",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "bin",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"Debug/wrjpgcom.exe"
+			],
+			"targetId" : "wrjpgcom::@6890427a1f51a3e7e1df",
+			"targetIndex" : 53,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "doc",
+			"destination" : "doc",
+			"paths" : 
+			[
+				"README.ijg",
+				"README.md",
+				"src/example.c",
+				"src/tjcomp.c",
+				"src/tjdecomp.c",
+				"src/tjtran.c",
+				"doc/libjpeg.txt",
+				"doc/structure.txt",
+				"doc/usage.txt",
+				"doc/wizard.txt",
+				"LICENSE.md"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "lib",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/pkgscripts/libjpeg.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "lib",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/pkgscripts/libturbojpeg.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "lib",
+			"destination" : "lib/cmake/libjpeg-turbo",
+			"paths" : 
+			[
+				"build/pkgscripts/libjpeg-turboConfig.cmake",
+				"build/pkgscripts/libjpeg-turboConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "lib",
+			"destination" : "lib/cmake/libjpeg-turbo",
+			"exportName" : "libjpeg-turboTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "jpeg::@f24a82888f86be82ccef",
+					"index" : 20
+				},
+				{
+					"id" : "turbojpeg::@6890427a1f51a3e7e1df",
+					"index" : 46
+				},
+				{
+					"id" : "turbojpeg-static::@6890427a1f51a3e7e1df",
+					"index" : 47
+				},
+				{
+					"id" : "jpeg-static::@6890427a1f51a3e7e1df",
+					"index" : 21
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/f0d506f335508d6549928070f26fb787/libjpeg-turboTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "include",
+			"destination" : "include",
+			"paths" : 
+			[
+				"build/jconfig.h",
+				"src/jerror.h",
+				"src/jmorecfg.h",
+				"src/jpeglib.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

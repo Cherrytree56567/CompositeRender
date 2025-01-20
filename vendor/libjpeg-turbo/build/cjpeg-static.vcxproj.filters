@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\cjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\cdjpeg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdbmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdgif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdppm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdswitch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\CompositeRender\vendor\libjpeg-turbo\src\rdtarga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\CompositeRender\vendor\libjpeg-turbo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\CompositeRender\vendor\libjpeg-turbo\build\cjpeg12-static.dir\$(Configuration)\rdppm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\CompositeRender\vendor\libjpeg-turbo\build\cjpeg16-static.dir\$(Configuration)\rdppm.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{BAF362E5-07A3-3982-9E67-A746AD240144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8256A168-F83B-3F96-99D5-C3AFF4950E70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
