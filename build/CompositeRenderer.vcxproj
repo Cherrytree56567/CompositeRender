@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -109,10 +109,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,8 +120,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Debug\glad.lib;Debug\imgui.lib;Debug\tinyxml2.lib;Debug\zlib.lib;Debug\libpng.lib;Debug\penguinv.lib;Debug\libpng.lib;Debug\zlib.lib;Debug\tinyxml2.lib;Debug\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Debug\glad.lib;Debug\imgui.lib;Debug\tinyxml2.lib;Debug\zlib.lib;Debug\libpng.lib;Debug\penguinv.lib;Debug\onnxRun.lib;onnxruntime.lib;onnxruntime_providers_shared.lib;Debug\penguinv.lib;Debug\libpng.lib;Debug\zlib.lib;Debug\tinyxml2.lib;Debug\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/CompositeRender/vendor/onnxruntime/lib;D:/CompositeRender/vendor/onnxruntime/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -135,7 +135,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -159,10 +159,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -170,8 +170,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Release\glad.lib;Release\imgui.lib;Release\tinyxml2.lib;Release\zlib.lib;Release\libpng.lib;Release\penguinv.lib;Release\libpng.lib;Release\zlib.lib;Release\tinyxml2.lib;Release\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Release\glad.lib;Release\imgui.lib;Release\tinyxml2.lib;Release\zlib.lib;Release\libpng.lib;Release\penguinv.lib;Release\onnxRun.lib;onnxruntime.lib;onnxruntime_providers_shared.lib;Release\penguinv.lib;Release\libpng.lib;Release\zlib.lib;Release\tinyxml2.lib;Release\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/CompositeRender/vendor/onnxruntime/lib;D:/CompositeRender/vendor/onnxruntime/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -185,7 +185,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -209,10 +209,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -220,8 +220,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;MinSizeRel\glad.lib;MinSizeRel\imgui.lib;MinSizeRel\tinyxml2.lib;MinSizeRel\zlib.lib;MinSizeRel\libpng.lib;MinSizeRel\penguinv.lib;MinSizeRel\libpng.lib;MinSizeRel\zlib.lib;MinSizeRel\tinyxml2.lib;MinSizeRel\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;MinSizeRel\glad.lib;MinSizeRel\imgui.lib;MinSizeRel\tinyxml2.lib;MinSizeRel\zlib.lib;MinSizeRel\libpng.lib;MinSizeRel\penguinv.lib;MinSizeRel\onnxRun.lib;onnxruntime.lib;onnxruntime_providers_shared.lib;MinSizeRel\penguinv.lib;MinSizeRel\libpng.lib;MinSizeRel\zlib.lib;MinSizeRel\tinyxml2.lib;MinSizeRel\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/CompositeRender/vendor/onnxruntime/lib;D:/CompositeRender/vendor/onnxruntime/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -235,7 +235,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -258,10 +258,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\onnxruntime\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -269,8 +269,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;RelWithDebInfo\glad.lib;RelWithDebInfo\imgui.lib;RelWithDebInfo\tinyxml2.lib;RelWithDebInfo\zlib.lib;RelWithDebInfo\libpng.lib;RelWithDebInfo\penguinv.lib;RelWithDebInfo\libpng.lib;RelWithDebInfo\zlib.lib;RelWithDebInfo\tinyxml2.lib;RelWithDebInfo\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;RelWithDebInfo\glad.lib;RelWithDebInfo\imgui.lib;RelWithDebInfo\tinyxml2.lib;RelWithDebInfo\zlib.lib;RelWithDebInfo\libpng.lib;RelWithDebInfo\penguinv.lib;RelWithDebInfo\onnxRun.lib;onnxruntime.lib;onnxruntime_providers_shared.lib;RelWithDebInfo\penguinv.lib;RelWithDebInfo\libpng.lib;RelWithDebInfo\zlib.lib;RelWithDebInfo\tinyxml2.lib;RelWithDebInfo\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/CompositeRender/vendor/onnxruntime/lib;D:/CompositeRender/vendor/onnxruntime/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -340,6 +340,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="D:\CompositeRender\src\AI\AI.cpp" />
     <ClCompile Include="D:\CompositeRender\src\Color\Color.cpp" />
     <ClCompile Include="D:\CompositeRender\src\Input\Input.cpp" />
     <ClCompile Include="D:\CompositeRender\src\Node\Node.cpp" />
@@ -367,6 +368,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="D:\CompositeRender\build\libpng.vcxproj">
       <Project>{CDDDB831-D826-3842-8E4A-049A062D623B}</Project>
       <Name>libpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\build\onnxRun.vcxproj">
+      <Project>{B9ABEC2A-2953-364A-86B5-032D8EFED4B7}</Project>
+      <Name>onnxRun</Name>
     </ProjectReference>
     <ProjectReference Include="D:\CompositeRender\build\penguinv.vcxproj">
       <Project>{3F520E79-9E49-38C6-B9CE-3176118E79E4}</Project>

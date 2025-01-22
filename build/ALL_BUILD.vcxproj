@@ -194,6 +194,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{CDDDB831-D826-3842-8E4A-049A062D623B}</Project>
       <Name>libpng</Name>
     </ProjectReference>
+    <ProjectReference Include="D:\CompositeRender\build\onnxRun.vcxproj">
+      <Project>{B9ABEC2A-2953-364A-86B5-032D8EFED4B7}</Project>
+      <Name>onnxRun</Name>
+    </ProjectReference>
     <ProjectReference Include="D:\CompositeRender\build\penguinv.vcxproj">
       <Project>{3F520E79-9E49-38C6-B9CE-3176118E79E4}</Project>
       <Name>penguinv</Name>

@@ -5,6 +5,7 @@ D:/CompositeRender/build/CMakeFiles/zlib.dir
 D:/CompositeRender/build/CMakeFiles/libjpeg.dir
 D:/CompositeRender/build/CMakeFiles/libpng.dir
 D:/CompositeRender/build/CMakeFiles/penguinv.dir
+D:/CompositeRender/build/CMakeFiles/onnxRun.dir
 D:/CompositeRender/build/CMakeFiles/CompositeRenderer.dir
 D:/CompositeRender/build/CMakeFiles/ALL_BUILD.dir
 D:/CompositeRender/build/CMakeFiles/ZERO_CHECK.dir

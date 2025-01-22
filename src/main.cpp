@@ -12,6 +12,7 @@
 #include "Input/Input.h"
 #include "Color/Color.h"
 #include "Output/Output.h"
+#include "AI/AI.h"
 
 /*
  * Global Variables
@@ -57,6 +58,8 @@ std::unordered_map<int64_t, std::shared_ptr<Node>> parseXML(const std::string& f
             node = std::make_shared<ExposureNode>();
         } else if (nodeName == "Gamma") {
             node = std::make_shared<GammaNode>();
+        } else if (nodeName == "Upscale") {
+            node = std::make_shared<UpscaleNode>();
         } else {
             continue;
         }
@@ -102,11 +105,11 @@ std::unordered_map<int64_t, std::shared_ptr<Node>> parseXML(const std::string& f
 int main(int argc, char *argv[]) {
     if (argc != 3) {
         std::cout << "[Composite::Render] Critical Error: Please provide an .xml file for parsing and an output file.\n";
-        return -1;
+        //return -1;
     }
     
-    nodes = parseXML(argv[1]);
-    outputFileName = argv[2];
+    nodes = parseXML("D:/CompositeRender/build/Debug/test.xml");
+    outputFileName = "output.png";
 
     /*
      * Execute the Active Composite Node.

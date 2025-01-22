@@ -3,12 +3,12 @@
         <Composite id="2571587991200" active="true">
             <in type="image" val="2571588874672"/>
         </Composite>
-        <Gamma id="2571588874672">
+        <Upscale id="2571588874672">
             <in type="image" val="2571505049232"/>
-            <param name="gamma" val="2.670000"/>
-        </Gamma>
+            <param name="model" val="C:\Users\ronit\Downloads\edsr_x4-4f62e9ef.pt"/>
+        </Upscale>
         <Image id="2571505049232">
-            <param name="image" val="D:\Composite\build\Debug\img3.jpg"/>
+            <param name="image" val="D:\Composite\build\Debug\img4.jpg"/>
         </Image>
     </Nodes>
 </Composite>
