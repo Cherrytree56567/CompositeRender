@@ -1,9 +1,18 @@
 #pragma once
 #include <iostream>
-#include <cpu_provider_factory.h>
-#include <onnxruntime_cxx_api.h>
+#include <stb_image_write.h>
+#include <stb_image.h>
+#include <Python.h>
+#include <cstdlib>
+#include <filesystem>
 #include "../Node/Node.h"
 #include "../globals.h"
+
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
 
 /*
  * Upscale Node

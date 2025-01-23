@@ -223,22 +223,16 @@ target_include_directories(penguinv PUBLIC
 target_link_libraries(penguinv PRIVATE imgui glfw glad tinyxml2 zlib libpng)
 
 # ----------------------
-# ONNX Runtime
+# Python
 # ----------------------
-add_library(onnxRun STATIC
+add_library(python STATIC
     ${VENDOR_DIR}/penguinv/src/image_function_helper.cpp
-    ${VENDOR_DIR}/penguinv/src/image_function.cpp
-    ${VENDOR_DIR}/penguinv/src/penguinv/penguinv.cpp
-    ${VENDOR_DIR}/penguinv/src/file/file_image.cpp
-    ${VENDOR_DIR}/penguinv/src/file/bmp_image.cpp
-    ${VENDOR_DIR}/penguinv/src/file/png_image.cpp
-    ${VENDOR_DIR}/penguinv/src/file/jpeg_image.cpp
 )
-target_include_directories(onnxRun PUBLIC
-    ${VENDOR_DIR}/onnxruntime/include/
+target_include_directories(python PUBLIC
+    ${VENDOR_DIR}/python/include/
 )
-link_directories(${VENDOR_DIR}/onnxruntime/lib)
-target_link_libraries(onnxRun PRIVATE imgui glfw glad tinyxml2 zlib libpng penguinv onnxruntime onnxruntime_providers_shared)
+link_directories(${VENDOR_DIR}/python/libs)
+target_link_libraries(python PRIVATE imgui glfw glad tinyxml2 zlib libpng penguinv python312)
 
 # ----------------------
 # Main Application
@@ -255,4 +249,4 @@ target_include_directories(CompositeRenderer PUBLIC
 )
 
 # Link libraries to the application
-target_link_libraries(CompositeRenderer PRIVATE glfw glad imgui tinyxml2 zlib libpng penguinv onnxRun onnxruntime onnxruntime_providers_shared)
+target_link_libraries(CompositeRenderer PRIVATE glfw glad imgui tinyxml2 zlib libpng penguinv python python312)

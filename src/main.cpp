@@ -108,8 +108,8 @@ int main(int argc, char *argv[]) {
         //return -1;
     }
     
-    nodes = parseXML("D:/CompositeRender/build/Debug/test.xml");
-    outputFileName = "output.png";
+    nodes = parseXML(argv[1]);
+    outputFileName = argv[2];
 
     /*
      * Execute the Active Composite Node.
