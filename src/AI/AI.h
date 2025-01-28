@@ -18,8 +18,27 @@
  * Upscale Node
  * 
  * Dependencies = Image img (op)
- * Params = int scale
+ * Params = char* modelPath
 */
 struct UpscaleNode : Node {
+    virtual void execute() override;
+};
+
+/*
+ * Background Remover Node
+ * 
+ * Dependencies = Image img (op)
+*/
+struct BackgroundRemoverNode : Node {
+    virtual void execute() override;
+};
+
+/*
+ * Image Gen Node
+ * 
+ * Dependencies = Image img (op)
+ * Params = char* prompt, bool cuda
+*/
+struct ImageGenNode : Node {
     virtual void execute() override;
 };

@@ -60,6 +60,10 @@ std::unordered_map<int64_t, std::shared_ptr<Node>> parseXML(const std::string& f
             node = std::make_shared<GammaNode>();
         } else if (nodeName == "Upscale") {
             node = std::make_shared<UpscaleNode>();
+        } else if (nodeName == "RemoveBackground") {
+            node = std::make_shared<BackgroundRemoverNode>();
+        } else if (nodeName == "ImageGenerator") {
+            node = std::make_shared<ImageGenNode>();
         } else {
             continue;
         }
@@ -105,7 +109,10 @@ std::unordered_map<int64_t, std::shared_ptr<Node>> parseXML(const std::string& f
 int main(int argc, char *argv[]) {
     if (argc != 3) {
         std::cout << "[Composite::Render] Critical Error: Please provide an .xml file for parsing and an output file.\n";
-        //return -1;
+        std::cout << "[Composite::Render] \n";
+        std::cout << "[Composite::Render] Format:\n";
+        std::cout << "[Composite::Render] CompositeRenderer.exe <xml File> <Output File>\n";
+        return -1;
     }
     
     nodes = parseXML(argv[1]);

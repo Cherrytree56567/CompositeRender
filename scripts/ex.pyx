@@ -1,6 +1,31 @@
 import onnxruntime as ort
 import numpy as np
 from PIL import Image
+from rembg import remove
+from diffusers import StableDiffusionPipeline
+import torch
+
+def aiImage(cuda, prompt, output, model):
+    model = StableDiffusionPipeline.from_pretrained(model)
+    if cuda:
+        model.to("cuda")
+
+    image = model(prompt)["sample"][0]
+
+    image.save(output)
+
+
+def remove_background(input_path, output_path):
+    # Open the input image
+    with open(input_path, 'rb') as input_file:
+        input_image = input_file.read()
+    
+    # Remove the background
+    output_image = remove(input_image)
+    
+    # Save the output image
+    with open(output_path, 'wb') as output_file:
+        output_file.write(output_image)
 
 def load_image(image_path):
     """ Load image and convert to RGB """
