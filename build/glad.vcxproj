@@ -92,12 +92,12 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\CompositeRender\vendor\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -127,14 +127,14 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\CompositeRender\vendor\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -164,14 +164,14 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\CompositeRender\vendor\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -202,12 +202,12 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>D:\CompositeRender\vendor\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>

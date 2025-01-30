@@ -64,6 +64,8 @@ std::unordered_map<int64_t, std::shared_ptr<Node>> parseXML(const std::string& f
             node = std::make_shared<BackgroundRemoverNode>();
         } else if (nodeName == "ImageGenerator") {
             node = std::make_shared<ImageGenNode>();
+        } else if (nodeName == "HDR") {
+            node = std::make_shared<HDRNode>();
         } else {
             continue;
         }

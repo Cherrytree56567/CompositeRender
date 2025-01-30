@@ -18,3 +18,18 @@ On Windows run:
 ```
 CompositeRenderer.exe <XML File> <Output FilePath>
 ```
+
+## Building
+On Windows, run:
+```
+cmake --build build --config Release --target ALL_BUILD -j 10 --
+```
+Make sure you have ninja in your path before using emscripten
+For emscripten run:
+```
+mkdir build.em
+cd build.em
+emcmake cmake -DEMSCRIPTEN_BUILD=ON .. -G "ninja"
+cd ../
+emmake ninja
+```

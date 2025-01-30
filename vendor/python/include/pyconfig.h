@@ -56,7 +56,7 @@ WIN32 is still required for the locale module.
 #define HAVE_CLOCK
 #define HAVE_STRERROR
 
-#include <io.h>
+#include <stdio.h>
 
 #define HAVE_STRFTIME
 #define DONT_HAVE_SIG_ALARM

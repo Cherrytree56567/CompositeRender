@@ -1,0 +1,5 @@
+/mnt/d/CompositeRender/build.em/CMakeFiles/tinyxml2.dir
+/mnt/d/CompositeRender/build.em/CMakeFiles/python.dir
+/mnt/d/CompositeRender/build.em/CMakeFiles/CompositeRenderer.dir
+/mnt/d/CompositeRender/build.em/CMakeFiles/edit_cache.dir
+/mnt/d/CompositeRender/build.em/CMakeFiles/rebuild_cache.dir

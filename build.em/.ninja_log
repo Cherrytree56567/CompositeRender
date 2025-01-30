@@ -1,0 +1,11 @@
+# ninja log v5
+236	617	1738055187584714300	CMakeFiles/python.dir/vendor/penguinv/src/image_function_helper.cpp.o	55e5f86cb82d7e94
+231	1507	1738055188497817400	CMakeFiles/tinyxml2.dir/vendor/tinyxml2/tinyxml2.cpp.o	c95646ef3fe000b2
+1520	1892	1738055188693431000	libtinyxml2.a	ac2cea8e0d2b1ee4
+255	2044	1738055189046594500	CMakeFiles/CompositeRenderer.dir/src/Node/Node.cpp.o	4316496d48070edc
+1894	2234	1738055189150015900	libpython.a	98c8ff042a1a3d77
+267	2298	1738055189302084200	CMakeFiles/CompositeRenderer.dir/src/Vec3/Vec3.cpp.o	f3fa2a9308c3de2a
+264	2720	1738055189751892900	CMakeFiles/CompositeRenderer.dir/src/Utils/utils.cpp.o	1f6ef5f499d62acb
+259	2771	1738055189795577300	CMakeFiles/CompositeRenderer.dir/src/Output/Output.cpp.o	325cba2bf77c723c
+251	2991	1738055190032908900	CMakeFiles/CompositeRenderer.dir/src/Input/Input.cpp.o	f4b615db72612013
+247	3065	1738055190110811500	CMakeFiles/CompositeRenderer.dir/src/Color/Color.cpp.o	b62b79e7269ca26d

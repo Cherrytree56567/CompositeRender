@@ -42,3 +42,13 @@ struct BackgroundRemoverNode : Node {
 struct ImageGenNode : Node {
     virtual void execute() override;
 };
+
+/*
+ * HDR Node
+ * 
+ * Dependencies = Image img (op)
+ * Params = char* modelPath
+*/
+struct HDRNode : Node {
+    virtual void execute() override;
+};

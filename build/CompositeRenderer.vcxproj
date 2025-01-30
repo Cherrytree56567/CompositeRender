@@ -86,13 +86,11 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
@@ -103,16 +101,16 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,7 +118,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Debug\glad.lib;Debug\imgui.lib;Debug\tinyxml2.lib;Debug\zlib.lib;Debug\libpng.lib;Debug\penguinv.lib;Debug\python.lib;python312.lib;Debug\penguinv.lib;Debug\libpng.lib;Debug\zlib.lib;Debug\tinyxml2.lib;Debug\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Debug\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Debug\tinyxml2.lib;Debug\python.lib;Debug\tinyxml2.lib;python312.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>D:/CompositeRender/vendor/python/libs;D:/CompositeRender/vendor/python/libs/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -135,12 +133,10 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
@@ -151,18 +147,18 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -170,7 +166,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Release\glad.lib;Release\imgui.lib;Release\tinyxml2.lib;Release\zlib.lib;Release\libpng.lib;Release\penguinv.lib;Release\python.lib;python312.lib;Release\penguinv.lib;Release\libpng.lib;Release\zlib.lib;Release\tinyxml2.lib;Release\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;Release\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Release\tinyxml2.lib;Release\python.lib;Release\tinyxml2.lib;python312.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>D:/CompositeRender/vendor/python/libs;D:/CompositeRender/vendor/python/libs/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -185,12 +181,10 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
@@ -201,18 +195,18 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -220,7 +214,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;MinSizeRel\glad.lib;MinSizeRel\imgui.lib;MinSizeRel\tinyxml2.lib;MinSizeRel\zlib.lib;MinSizeRel\libpng.lib;MinSizeRel\penguinv.lib;MinSizeRel\python.lib;python312.lib;MinSizeRel\penguinv.lib;MinSizeRel\libpng.lib;MinSizeRel\zlib.lib;MinSizeRel\tinyxml2.lib;MinSizeRel\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;MinSizeRel\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>MinSizeRel\tinyxml2.lib;MinSizeRel\python.lib;MinSizeRel\tinyxml2.lib;python312.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>D:/CompositeRender/vendor/python/libs;D:/CompositeRender/vendor/python/libs/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -235,13 +229,11 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/CompositeRender/vendor/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
-      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
@@ -252,16 +244,16 @@
       <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_DEFINE_MATH_OPERATORS;PENGUINV_ENABLED_JPEG_SUPPORT;PENGUINV_ENABLED_PNG_SUPPORT;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\glad\include;D:\CompositeRender\vendor\imgui;D:\CompositeRender\vendor\imgui\backends;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\zlib;D:\CompositeRender\vendor\libpng;D:\CompositeRender\vendor\libpng\scripts;D:\CompositeRender\vendor\penguinv\src;D:\CompositeRender\vendor\penguinv\src\penguinv;D:\CompositeRender\vendor\python\include;D:\CompositeRender\vendor\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\CompositeRender\vendor\stb;D:\CompositeRender\vendor\tinyxml2;D:\CompositeRender\vendor\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -269,7 +261,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;RelWithDebInfo\glad.lib;RelWithDebInfo\imgui.lib;RelWithDebInfo\tinyxml2.lib;RelWithDebInfo\zlib.lib;RelWithDebInfo\libpng.lib;RelWithDebInfo\penguinv.lib;RelWithDebInfo\python.lib;python312.lib;RelWithDebInfo\penguinv.lib;RelWithDebInfo\libpng.lib;RelWithDebInfo\zlib.lib;RelWithDebInfo\tinyxml2.lib;RelWithDebInfo\imgui.lib;D:\CompositeRender\vendor\glfw\lib-vc2022\glfw3.lib;RelWithDebInfo\glad.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>RelWithDebInfo\tinyxml2.lib;RelWithDebInfo\python.lib;RelWithDebInfo\tinyxml2.lib;python312.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>D:/CompositeRender/vendor/python/libs;D:/CompositeRender/vendor/python/libs/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -357,22 +349,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\CompositeRender\build\glad.vcxproj">
-      <Project>{8A5B966B-F460-359A-BAFA-DBBFE546AEF9}</Project>
-      <Name>glad</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\CompositeRender\build\imgui.vcxproj">
-      <Project>{A935923F-DA3F-3D9F-A5EB-6349F3F75D45}</Project>
-      <Name>imgui</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\CompositeRender\build\libpng.vcxproj">
-      <Project>{CDDDB831-D826-3842-8E4A-049A062D623B}</Project>
-      <Name>libpng</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\CompositeRender\build\penguinv.vcxproj">
-      <Project>{3F520E79-9E49-38C6-B9CE-3176118E79E4}</Project>
-      <Name>penguinv</Name>
-    </ProjectReference>
     <ProjectReference Include="D:\CompositeRender\build\python.vcxproj">
       <Project>{FD951340-A5FE-3C4F-9D93-907017B9355B}</Project>
       <Name>python</Name>
@@ -380,10 +356,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="D:\CompositeRender\build\tinyxml2.vcxproj">
       <Project>{9DFFA9EA-3A02-3AAB-840D-23F13FBEF3AF}</Project>
       <Name>tinyxml2</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\CompositeRender\build\zlib.vcxproj">
-      <Project>{B4DA0ED5-06A5-375E-BB96-61DE524F0924}</Project>
-      <Name>zlib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
